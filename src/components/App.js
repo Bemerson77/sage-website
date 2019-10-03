@@ -5,6 +5,7 @@ import Grid from '@material-ui/core/Grid';
 
 import salonImg from '../img/SageSalon105.jpg';
 import '../App.css';
+import Footer from './Footer.js';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -30,6 +31,7 @@ function App() {
             <h1 className="coming-soon-txt">Coming Soon!</h1>
           </Grid>
         </Grid>
+        <Footer />
       </Container>
     </div>
   );
