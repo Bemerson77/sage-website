@@ -33,10 +33,10 @@ function Footer() {
   function FooterSocial() {
     return(
       <div>
-        <a className={classes.socialLink} href="https://www.facebook.com/SageSalon19/" target="_blank">
+        <a className={classes.socialLink} href="https://www.facebook.com/SageSalon19/" rel="noopener noreferrer" target="_blank">
           <FontAwesomeIcon className={classes.socialIcons} icon={faFacebook} />
         </a>
-        <a className={classes.socialLink} href="https://www.instagram.com/sagesalon19/" target="_blank">
+        <a className={classes.socialLink} href="https://www.instagram.com/sagesalon19/" rel="noopener noreferrer" target="_blank">
           <FontAwesomeIcon className={classes.socialIcons} icon={faInstagram} />
         </a>
       </div>
@@ -47,9 +47,9 @@ function Footer() {
   function FooterInfo() {
     return(
       <div>
-        <a href='mailto:sagesalon730@gmail.com' className={classes.infoItems, classes.infoBorder}>sagesalon730@gmail.com</a>
-        <a href='tel:864-349-1309' className={classes.infoItems, classes.infoBorder}>864-349-1309</a>
-        <a href='https://www.google.com/maps/place/730+S+Pleasantburg+Dr+Suite+M,+Greenville,+SC+29607/data=!4m2!3m1!1s0x88582fc1d5fa241d:0x8955f0c0780fa530?sa=X&ved=2ahUKEwjxmaC9u4HlAhUOCKwKHcMJD-EQ8gEwAHoECAoQAQ' target='_blank'>730 S Pleasantburg Dr Suite M Greenville, SC</a>
+        <a href='mailto:sagesalon730@gmail.com' className={classes.infoBorder}>sagesalon730@gmail.com</a>
+        <a href='tel:864-349-1309' className={classes.infoBorder}>864-349-1309</a>
+        <a href='https://www.google.com/maps/place/730+S+Pleasantburg+Dr+Suite+M,+Greenville,+SC+29607/data=!4m2!3m1!1s0x88582fc1d5fa241d:0x8955f0c0780fa530?sa=X&ved=2ahUKEwjxmaC9u4HlAhUOCKwKHcMJD-EQ8gEwAHoECAoQAQ' rel="noopener noreferrer" target='_blank'>730 S Pleasantburg Dr Suite M Greenville, SC</a>
       </div>
     )
   }
