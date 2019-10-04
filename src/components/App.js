@@ -3,7 +3,8 @@ import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import Grid from '@material-ui/core/Grid';
 
-import salonImg from '../img/SageSalon105.jpg';
+import salonImg from '../img/SageSalon105.png';
+import sageLogo from '../img/sage-logo.png'
 import '../App.css';
 import Footer from './Footer.js';
 
@@ -15,6 +16,12 @@ const useStyles = makeStyles(theme => ({
   salonImg: {
     height: '60vmin'
   },
+  sageLogo: {
+    height: '150px'
+  },
+  logoWrapper: {
+    marginTop: '30px'
+  }
 }));
 
 function App() {
@@ -24,11 +31,11 @@ function App() {
     <div className={classes.root}>
       <Container fixed>
         <Grid container spacing={3}>
-          <Grid item xs={12}>
-            <img src={salonImg} className={classes.salonImg} alt="logo" />
+          <Grid className={classes.logoWrapper} item xs={12}>
+            <img src={sageLogo} className={classes.sageLogo} alt="logo" />
           </Grid>
           <Grid item xs={12}>
-            <h1 className="coming-soon-txt">Coming Soon!</h1>
+            <img src={salonImg} className={classes.salonImg} alt="logo" />
           </Grid>
         </Grid>
         <Footer />

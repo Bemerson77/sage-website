@@ -16,9 +16,14 @@ const useStyles = makeStyles(theme => ({
     textDecoration: 'none'
   },
   socialIcons: {
-    fontSize: '30px',
+    fontSize: '40px',
     margin: '5px',
     color: 'rgba(178, 186, 165, 1)'
+  },
+  infoBorder: {
+    marginRight: '10px',
+    paddingRight: '10px',
+    borderRight: '1px solid #000000'
   },
 }));
 
@@ -41,7 +46,11 @@ function Footer() {
 
   function FooterInfo() {
     return(
-      <p>hello1</p>
+      <div>
+        <a href='mailto:sagesalon730@gmail.com' className={classes.infoItems, classes.infoBorder}>sagesalon730@gmail.com</a>
+        <a href='tel:864-349-1309' className={classes.infoItems, classes.infoBorder}>864-349-1309</a>
+        <a href='https://www.google.com/maps/place/730+S+Pleasantburg+Dr+Suite+M,+Greenville,+SC+29607/data=!4m2!3m1!1s0x88582fc1d5fa241d:0x8955f0c0780fa530?sa=X&ved=2ahUKEwjxmaC9u4HlAhUOCKwKHcMJD-EQ8gEwAHoECAoQAQ' target='_blank'>730 S Pleasantburg Dr Suite M Greenville, SC</a>
+      </div>
     )
   }
 
