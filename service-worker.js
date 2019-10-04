@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/sage-website/precache-manifest.57509ec7f9dd014be3ef69f2d6089347.js"
+  "/sage-website/precache-manifest.8504c77ce40bf742a7b78c1e44eee84e.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9e233c31ca13322cfef32ea243950326",
+    "revision": "06bc3f0bcf0c2bd883028931227db35b",
     "url": "/sage-website/index.html"
   },
   {
