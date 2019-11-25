@@ -1,47 +1,28 @@
-import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import Container from '@material-ui/core/Container';
-import Grid from '@material-ui/core/Grid';
+import React, { Component } from 'react';
+import {
+  BrowserRouter as Router,
+  Route,
+  Link
+} from 'react-router-dom'
+import HomeComponent from './Home.js';
+import ServicesComponent from './Services.js';
+import TeamComponent from './Team.js';
+import HeaderComponent from './Header';
 
-import salonImg from '../img/SageSalon105.png';
-import sageLogo from '../img/sage-logo.png'
-import '../App.css';
-import Footer from './Footer.js';
-
-const useStyles = makeStyles(theme => ({
-  root: {
-    flexGrow: 1,
-    textAlign: 'center'
-  },
-  salonImg: {
-    height: '60vmin'
-  },
-  sageLogo: {
-    height: '150px'
-  },
-  logoWrapper: {
-    marginTop: '30px'
-  }
-}));
-
-function App() {
-  const classes = useStyles();
-
+class App extends React.Component {
+  render() {
   return (
-    <div className={classes.root}>
-      <Container fixed>
-        <Grid container spacing={3}>
-          <Grid className={classes.logoWrapper} item xs={12}>
-            <img src={sageLogo} className={classes.sageLogo} alt="logo" />
-          </Grid>
-          <Grid item xs={12}>
-            <img src={salonImg} className={classes.salonImg} alt="logo" />
-          </Grid>
-        </Grid>
-        <Footer />
-      </Container>
-    </div>
+    <Router>
+        <div>
+          <HeaderComponent />
+
+          <Route exact path='/' component={HomeComponent}></Route>
+          <Route exact path='/services' component={ServicesComponent}></Route>
+          <Route exact path='/team' component={TeamComponent}></Route>
+        </div>
+      </Router>
   );
+}
 }
 
 export default App;
