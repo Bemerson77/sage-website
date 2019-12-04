@@ -3,22 +3,27 @@ import { Link } from 'react-router-dom'
 import Container from '@material-ui/core/Container';
 import Grid from '@material-ui/core/Grid';
 
+import '../styles/header.scss';
+
 function HeaderComponent (){
   return (
     <div className="header-outer">
-      
-
-    <ul>
-      <li>
-        <Link to="/"> Home </Link>
-      </li>
-      <li>
-        <Link to="/services"> Services </Link>
-      </li>
-      <li>
-        <Link to="/team"> Team </Link>
-      </li>
-    </ul>
+      <div className="header-inner">
+        <div className="logo-wrapper">
+          
+        </div>
+        <ul className="nav-link-outer">
+          <li className="nav-link-item">
+            <Link to="/"> Home </Link>
+          </li>
+          <li className="nav-link-item">
+            <Link to="/services"> Services </Link>
+          </li>
+          <li className="nav-link-item">
+            <Link to="/team"> Team </Link>
+          </li>
+        </ul>
+      </div>
     </div>
   )
 }
