@@ -1,1 +1,36 @@
+$header-height: 100px;
+$logo-height: 80px;
 
+.header-outer{
+  height: $header-height;
+}
+
+.logo-wrapper{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  height: $header-height;
+  margin: 0 0 0 15px;
+
+  .sage-logo {
+    vertical-align: middle;
+    height: $logo-height;
+  }
+}
+
+.nav-link-outer {
+  padding: 0px;
+  text-align: center;
+  height: $header-height;
+  margin: 0;
+
+  .nav-link-item {
+    height: $header-height;
+    line-height: $header-height;
+    width: 100px;
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+
+  }
+}
