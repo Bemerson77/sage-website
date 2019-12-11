@@ -21,7 +21,15 @@ function TeamComponent (){
 function StylistComponent() {
 
   return (
-    <h1>hello</h1>
+    <div>
+      <div className="stylist-img-wrapper">
+        <img src={maryImg} className="stylist-img" />
+      </div>
+      <div className="stylist-img-wrapper">
+        <img src={maryImg} className="stylist-img" />
+      </div>
+
+    </div>
   )
 }
 
