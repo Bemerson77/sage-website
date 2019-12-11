@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 import Container from '@material-ui/core/Container';
 import Grid from '@material-ui/core/Grid';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons'
 
-import '../styles/header.scss';
+import '../App.scss';
 import sageLogo from '../img/Sage-logo-round.png';
 
 function HeaderComponent (){
+
   return (
     <div className="header-outer">
       <div className="header-inner">
@@ -24,6 +27,14 @@ function HeaderComponent (){
             <Link to="/team"> Team </Link>
           </li>
         </ul>
+        <div className="social-outer">
+          <a className="social-link" id="fb-icon" href="https://www.facebook.com/SageSalon19/" rel="noopener noreferrer" target="_blank">
+            <FontAwesomeIcon className="social-icons" icon={faFacebook} />
+          </a>
+          <a className="social-link" href="https://www.instagram.com/sagesalon19/" rel="noopener noreferrer" target="_blank">
+            <FontAwesomeIcon className="social-icons" icon={faInstagram} />
+          </a>
+        </div>
       </div>
     </div>
   )

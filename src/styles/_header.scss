@@ -1,0 +1,82 @@
+
+.header-outer{
+  height: $header-height;
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.logo-wrapper{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  height: $header-height;
+  margin: 0 0 0 15px;
+  // transform: rotate(-20deg);
+
+  .sage-logo {
+    vertical-align: middle;
+    height: $logo-height;
+  }
+}
+
+.nav-link-outer {
+  padding: 0px;
+  text-align: center;
+  height: $header-height;
+  margin: 0;
+
+  .nav-link-item {
+    height: $header-height;
+    line-height: $header-height;
+    margin: 0 3px;
+    width: 130px;
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+
+    a {
+      display: block;
+      text-decoration: none;
+      text-transform: uppercase;
+      text-align: center;
+      font-weight: bold;
+      letter-spacing: 2px;
+      font-size: 15px;
+      color: $black-color;
+
+      &:hover {
+        color: $sage-color;
+      }
+    }
+  }
+}
+
+.social-outer{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: $header-height;
+  margin: 0 15px 0 0;
+
+  #fb-icon {
+    margin-right: 5px;
+  }
+
+  .social-link {
+    text-decoration: none;
+  }
+
+  .social-icons {
+    font-size: 30px;
+    margin: 5px;
+    color: $black-color;
+
+    &:hover {
+      color: $sage-color;
+    }
+  }
+}
