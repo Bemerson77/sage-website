@@ -54,7 +54,7 @@ function AboutComponent() {
                 </a>
               </div>
               <div className="map-wrapper">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13101.523218912014!2d-82.369853!3d34.8215169!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9cf42b40f39f29c1!2sSage%20Salon!5e0!3m2!1sen!2sus!4v1576131884519!5m2!1sen!2sus" width="400" height="450" frameborder="0" style={{border: '0'}} allowfullscreen=""></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13101.523218912014!2d-82.369853!3d34.8215169!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9cf42b40f39f29c1!2sSage%20Salon!5e0!3m2!1sen!2sus!4v1576131884519!5m2!1sen!2sus" frameborder="0" style={{border: '0'}} allowfullscreen=""></iframe>
               </div>
               <h1 className="about-title">Hours</h1>
               <div className="hours-wrapper">
