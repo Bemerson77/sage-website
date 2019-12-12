@@ -5,12 +5,16 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons'
 
 import '../App.scss';
+import sageLogo from '../img/sage-logo.png';
 
 function Footer() {
 
   return (
     <div className="footer-outer">
       <p>Copyright &copy; 2019 Sage Salon</p>
+      <div className="footer-logo-wrapper">
+        <img src={sageLogo} className="sage-logo" alt="logo" />
+      </div>
     </div>
   );
 }

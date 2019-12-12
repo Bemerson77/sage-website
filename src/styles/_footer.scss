@@ -1,17 +1,36 @@
 .footer-outer {
   margin-top: 80px;
-  height: 20px;
-  background-color: rgba(217, 217, 220, 1);
+  height: 200px;
+  background-color: rgba(211, 200, 192, 1);
   border-top: 1px solid $black-color;
 
   p {
     display: flex;
     vertical-align: middle;
+    display: inline-block;
+    padding-left: 20px;
+    line-height: 200px;
     height: 100%;
     margin: 0;
+    text-transform: uppercase;
 
     span {
       color: $sage-color;
     }
   }
+}
+
+.footer-logo-wrapper {
+  display: flex;
+  position: relative;
+  float: right;
+  height: 200px;
+  margin-right: 20px;
+}
+
+.sage-logo {
+  height: 100px;
+  position: relative;
+  margin: auto;
+  float: right;
 }
