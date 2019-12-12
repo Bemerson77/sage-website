@@ -1,17 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.584d6dba.chunk.css",
-    "main.js": "/static/js/main.62ea0016.chunk.js",
-    "main.js.map": "/static/js/main.62ea0016.chunk.js.map",
+    "main.css": "/static/css/main.54386696.chunk.css",
+    "main.js": "/static/js/main.0632ea32.chunk.js",
+    "main.js.map": "/static/js/main.0632ea32.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.347089ef.js",
     "runtime-main.js.map": "/static/js/runtime-main.347089ef.js.map",
-    "static/js/2.e7300a2b.chunk.js": "/static/js/2.e7300a2b.chunk.js",
-    "static/js/2.e7300a2b.chunk.js.map": "/static/js/2.e7300a2b.chunk.js.map",
+    "static/js/2.3267eda3.chunk.js": "/static/js/2.3267eda3.chunk.js",
+    "static/js/2.3267eda3.chunk.js.map": "/static/js/2.3267eda3.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.5edc8ae720d98fd16be6ff9c441a243b.js": "/precache-manifest.5edc8ae720d98fd16be6ff9c441a243b.js",
+    "precache-manifest.d0a7bf4cd3f822e675f71cfc50dc3bac.js": "/precache-manifest.d0a7bf4cd3f822e675f71cfc50dc3bac.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.584d6dba.chunk.css.map": "/static/css/main.584d6dba.chunk.css.map",
-    "static/media/SageSalon105.png": "/static/media/SageSalon105.fa9b0a97.png",
-    "static/media/sage-logo.png": "/static/media/sage-logo.50df172f.png"
+    "static/css/main.54386696.chunk.css.map": "/static/css/main.54386696.chunk.css.map",
+    "static/media/Sage-logo-round.png": "/static/media/Sage-logo-round.703b82b9.png",
+    "static/media/SageSalon06.jpg": "/static/media/SageSalon06.17da7077.jpg",
+    "static/media/SageSalon08.jpg": "/static/media/SageSalon08.5cda7407.jpg",
+    "static/media/SageSalon101.jpg": "/static/media/SageSalon101.dbc7421c.jpg",
+    "static/media/SageSalon108.jpg": "/static/media/SageSalon108.e81d1a59.jpg",
+    "static/media/SageSalon117.jpg": "/static/media/SageSalon117.faebc5d9.jpg",
+    "static/media/SageSalon17.jpg": "/static/media/SageSalon17.150573f5.jpg",
+    "static/media/SageSalon24.jpg": "/static/media/SageSalon24.f6dab6e6.jpg",
+    "static/media/SageSalon34.jpg": "/static/media/SageSalon34.3341c0de.jpg",
+    "static/media/SageSalon38.jpg": "/static/media/SageSalon38.c9c7921f.jpg",
+    "static/media/SageSalon45.jpg": "/static/media/SageSalon45.921e7b1c.jpg",
+    "static/media/SageSalon51.jpg": "/static/media/SageSalon51.6859bd1a.jpg",
+    "static/media/SageSalon62.jpg": "/static/media/SageSalon62.2a9f7e98.jpg",
+    "static/media/SageSalon83.jpg": "/static/media/SageSalon83.993584e4.jpg"
   }
 }
