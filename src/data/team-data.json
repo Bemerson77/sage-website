@@ -1,0 +1,16 @@
+[
+  {
+    "teamMember": {
+      "name": "Mary Emerson",
+      "position": "Stylist",
+      "imageTag": "maryImg"
+    }
+  },
+  {
+    "teamMember": {
+      "name": "Holly Chapman",
+      "position": "Owner and Stylist",
+      "imageTag": "hollyImg"
+    }
+  }
+]
