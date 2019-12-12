@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fb432be79458dbff00022dbdc94c5e4d",
+    "revision": "4fb4948927e59d2405ac3071d13d19bb",
     "url": "/index.html"
   },
   {
-    "revision": "7af528628984908a8c86",
-    "url": "/static/css/main.408e7433.chunk.css"
+    "revision": "3540822ebb9ea4918282",
+    "url": "/static/css/main.f2c04b4d.chunk.css"
   },
   {
-    "revision": "b122d49dfdd2c89d3251",
-    "url": "/static/js/2.3267eda3.chunk.js"
+    "revision": "ff8f8878a207b586738a",
+    "url": "/static/js/2.6d478abc.chunk.js"
   },
   {
-    "revision": "7af528628984908a8c86",
-    "url": "/static/js/main.fc851947.chunk.js"
+    "revision": "3540822ebb9ea4918282",
+    "url": "/static/js/main.52f200ce.chunk.js"
   },
   {
     "revision": "77566dbb4b189ff0990d",
@@ -74,5 +74,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "993584e492876d3e473b72a68c65c19e",
     "url": "/static/media/SageSalon83.993584e4.jpg"
+  },
+  {
+    "revision": "7eadcf466d4ad6af15b8cd4c5db2dbb4",
+    "url": "/static/media/sage-logo.7eadcf46.png"
   }
 ]);
