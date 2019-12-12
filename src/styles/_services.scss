@@ -1,0 +1,30 @@
+
+.service-list-outer {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.service-section-outer {
+  // height: 800px;
+  border: 1px solid $black-color;
+  padding-bottom: 50px;
+}
+
+.services-title {
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-top: 50px;
+}
+
+.service-sub-title {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 0;
+}
+
+.service {
+  padding: 5px;
+  // width: 300px;
+  font-weight: 500;
+  border-bottom: 1px solid rgba(233, 232, 234, 1);
+}

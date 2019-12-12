@@ -43,7 +43,6 @@
 .team-member-outer {
   display: inline-block;
   overflow: hidden;
-
   border: 1px solid $black-color;
 }
 
@@ -89,6 +88,7 @@
 
     .team-title {
       padding-top: 50px;
+      color: $sage-color;
       opacity: 0;
       transition: all 0.5s ease;
     }
