@@ -220,7 +220,7 @@ function ServiceList (){
                <h1 className="services-title">Products</h1>
                  <Grid item xs={12} className="service-section">
                      <p className="service">Eufora</p>
-                     <p className="service">Redkin Color</p>
+                     <p className="service">Redken Color</p>
                      <p className="service">Unite</p>
                  </Grid>
           </Grid>
