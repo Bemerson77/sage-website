@@ -19,7 +19,10 @@
 }
 
 .about-inner {
-  // height: 500px;
+}
+
+.about-body {
+  padding: 0 10%;
 }
 
 .about-title {
@@ -35,8 +38,12 @@
 }
 
 .info-wrapper {
-
+  text-align: center;
   h4 {
     margin: 5px;
   }
+}
+
+.hours-wrapper {
+  text-align: center;
 }
