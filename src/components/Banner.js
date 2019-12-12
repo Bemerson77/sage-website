@@ -9,8 +9,9 @@ function BannerComponent ({ imgPath }){
   return (
     <div className="banner-outer">
       <div className="banner" style={{ background: `url(${imgPath}) center center`, backgroundSize: 'cover', backgroundColor: 'rgba(233, 232, 234, 1)' }}>
-        <FontAwesomeIcon icon={Icons.faChevronDown} className="down-chevron"/>
+
       </div>
+      {/*<FontAwesomeIcon icon={Icons.faChevronDown} className="down-chevron"/>*/}
     </div>
   )
 }

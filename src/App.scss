@@ -7,6 +7,7 @@ $black-color: #000000;
 @import "./styles/home";
 @import "./styles/services";
 @import "./styles/team";
+@import "./styles/footer";
 
 
 .banner {
@@ -26,4 +27,11 @@ a {
 
 a:hover {
   color: rgba(178, 186, 165, 1);
+}
+
+
+@media only screen and (max-width: 600px) {
+  .banner {
+    margin-top: 300px !important;
+  }
 }

@@ -4,10 +4,12 @@ import {
   Route,
   Link
 } from 'react-router-dom'
+import { createBrowserHistory } from 'history'
 import HomeComponent from './Home.js';
 import ServicesComponent from './Services.js';
 import TeamComponent from './Team.js';
 import HeaderComponent from './Header';
+import FooterComponent from './Footer';
 
 class App extends React.Component {
   // componentDidUpdate(prevProps) {
@@ -15,16 +17,19 @@ class App extends React.Component {
   //           console.log('Route change!');
   //       }
   //   }
+
   render() {
 
   return (
-    <Router>
+    <Router onUpdate={() => window.scrollTo(0, 0)}>
         <div>
           <HeaderComponent />
 
           <Route exact path='/' component={HomeComponent}></Route>
           <Route exact path='/services' component={ServicesComponent}></Route>
           <Route exact path='/team' component={TeamComponent}></Route>
+
+          <FooterComponent />
         </div>
       </Router>
   );

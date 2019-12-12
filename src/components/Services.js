@@ -28,7 +28,7 @@ function ServiceList (){
           <Grid item xs={1}></Grid>
           <Grid item xs={10}>
             <h1 className="services-title">Sage Services</h1>
-            <p className="">All new guests will receive a free consultation with one of our specially trained stylists. Please confirm pricing with your stylist.</p>
+            <p className="">All new guests will receive a free consultation with one of our specially trained stylists. Please contact Sage Salon to confirm pricing.</p>
               <ExpansionPanel>
                <ExpansionPanelSummary
                  expandIcon={<ExpandMoreIcon />}

@@ -7,3 +7,36 @@
   bottom: 20vh;
   font-size: 80px;
 }
+
+.home-body {
+  margin-top: 150px;
+  // height: 500px;
+
+  .home-body-inner {
+    border: 1px solid $black-color;
+    padding-bottom: 40px;
+  }
+}
+
+.about-inner {
+  // height: 500px;
+}
+
+.about-title {
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-top: 50px;
+  color: $sage-color;
+}
+
+.map-wrapper {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.info-wrapper {
+
+  h4 {
+    margin: 5px;
+  }
+}
