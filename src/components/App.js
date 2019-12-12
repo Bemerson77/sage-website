@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import {
   BrowserRouter as Router,
   Route,
-  Link
+  Link,
+  HashRouter
 } from 'react-router-dom'
 import { createBrowserHistory } from 'history'
 import HomeComponent from './Home.js';
@@ -21,7 +22,7 @@ class App extends React.Component {
   render() {
 
   return (
-    <Router onUpdate={() => window.scrollTo(0, 0)}>
+    <HashRouter onUpdate={() => window.scrollTo(0, 0)}>
         <div>
           <HeaderComponent />
 
@@ -31,7 +32,7 @@ class App extends React.Component {
 
           <FooterComponent />
         </div>
-      </Router>
+      </HashRouter>
   );
 }
 }
