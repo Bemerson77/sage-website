@@ -1,20 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.f2c04b4d.chunk.css",
-    "main.js": "/static/js/main.55c53873.chunk.js",
-    "main.js.map": "/static/js/main.55c53873.chunk.js.map",
+    "main.js": "/static/js/main.931a6ae2.chunk.js",
+    "main.js.map": "/static/js/main.931a6ae2.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.347089ef.js",
     "runtime-main.js.map": "/static/js/runtime-main.347089ef.js.map",
     "static/js/2.38d5d673.chunk.js": "/static/js/2.38d5d673.chunk.js",
     "static/js/2.38d5d673.chunk.js.map": "/static/js/2.38d5d673.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.7060c35034a3b5663c3d1f8fe74510f4.js": "/precache-manifest.7060c35034a3b5663c3d1f8fe74510f4.js",
+    "precache-manifest.d9b28b95053c5bf3bdacf06dfc16f58a.js": "/precache-manifest.d9b28b95053c5bf3bdacf06dfc16f58a.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.f2c04b4d.chunk.css.map": "/static/css/main.f2c04b4d.chunk.css.map",
     "static/media/Sage-logo-round.png": "/static/media/Sage-logo-round.703b82b9.png",
     "static/media/SageSalon06.jpg": "/static/media/SageSalon06.17da7077.jpg",
     "static/media/SageSalon08.jpg": "/static/media/SageSalon08.5cda7407.jpg",
-    "static/media/SageSalon101.jpg": "/static/media/SageSalon101.dbc7421c.jpg",
     "static/media/SageSalon108.jpg": "/static/media/SageSalon108.e81d1a59.jpg",
     "static/media/SageSalon117.jpg": "/static/media/SageSalon117.faebc5d9.jpg",
     "static/media/SageSalon17.jpg": "/static/media/SageSalon17.150573f5.jpg",
@@ -25,6 +24,7 @@
     "static/media/SageSalon51.jpg": "/static/media/SageSalon51.6859bd1a.jpg",
     "static/media/SageSalon62.jpg": "/static/media/SageSalon62.2a9f7e98.jpg",
     "static/media/SageSalon83.jpg": "/static/media/SageSalon83.993584e4.jpg",
-    "static/media/sage-logo.png": "/static/media/sage-logo.7eadcf46.png"
+    "static/media/sage-logo.png": "/static/media/sage-logo.7eadcf46.png",
+    "static/media/salon-main.jpg": "/static/media/salon-main.31740ffa.jpg"
   }
 }

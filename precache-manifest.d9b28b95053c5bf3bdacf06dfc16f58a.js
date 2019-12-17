@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7cac3a044ba4b8aeae65ca1e0c06b10f",
+    "revision": "74a1251c31024ee0b2ee36d5272bf600",
     "url": "/index.html"
   },
   {
-    "revision": "937c244be7c0758dd478",
+    "revision": "c7f7ae140c0791a2404d",
     "url": "/static/css/main.f2c04b4d.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.38d5d673.chunk.js"
   },
   {
-    "revision": "937c244be7c0758dd478",
-    "url": "/static/js/main.55c53873.chunk.js"
+    "revision": "c7f7ae140c0791a2404d",
+    "url": "/static/js/main.931a6ae2.chunk.js"
   },
   {
     "revision": "77566dbb4b189ff0990d",
@@ -30,10 +30,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5cda7407afccff267ee2902591468196",
     "url": "/static/media/SageSalon08.5cda7407.jpg"
-  },
-  {
-    "revision": "dbc7421cefef60a7b8d4d90e13f91604",
-    "url": "/static/media/SageSalon101.dbc7421c.jpg"
   },
   {
     "revision": "e81d1a590d5a1f6ea82d0c0f74a9f1e6",
@@ -78,5 +74,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7eadcf466d4ad6af15b8cd4c5db2dbb4",
     "url": "/static/media/sage-logo.7eadcf46.png"
+  },
+  {
+    "revision": "31740ffaf3157806a2e95907d93c16bd",
+    "url": "/static/media/salon-main.31740ffa.jpg"
   }
 ]);
