@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import * as Icons from '@fortawesome/free-solid-svg-icons';
 
 import '../App.scss';
-import salonImg from '../img/SageSalon101.jpg';
+import salonImg from '../img/salon-main.jpg';
 import BannerComponent from './Banner';
 
 function HomeComponent (){
