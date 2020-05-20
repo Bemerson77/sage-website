@@ -87,16 +87,7 @@ function StylistComponent() {
             </div>
           </div>
         </Grid>
-        <Grid item xs={12} md={6} className="stylist-img-outer">
-          <div className="team-member-outer">
-            <div className="team-member" style={{ background: `url(${maryImg}) center center`, backgroundSize: 'cover', backgroundColor: 'rgba(233, 232, 234, 1)' }}>
-              <div className="txt-wrapper">
-                <h1 className="team-name">Mary Emerson</h1>
-                <h3 className="team-title">Stylist</h3>
-              </div>
-            </div>
-          </div>
-        </Grid>
+        
         <Grid item xs={12} md={6} className="stylist-img-outer">
           <div className="team-member-outer">
             <div className="team-member" style={{ background: `url(${amberImg}) center center`, backgroundSize: 'cover', backgroundColor: 'rgba(233, 232, 234, 1)' }}>
