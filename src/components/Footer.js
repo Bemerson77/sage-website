@@ -11,7 +11,7 @@ function Footer() {
 
   return (
     <div className="footer-outer">
-      <p>Copyright &copy; 2019 Sage Salon</p>
+      <p>Copyright &copy; 2022 Sage Salon</p>
       <div className="footer-logo-wrapper">
         <img src={sageLogo} className="sage-logo" alt="logo" />
       </div>

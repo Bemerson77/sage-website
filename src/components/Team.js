@@ -14,6 +14,9 @@ import mimiImg from '../img/SageSalon51.jpg';
 import carmenImg from '../img/SageSalon06.jpg';
 import hollyImg from '../img/SageSalon83.jpg';
 import maryImg from '../img/SageSalon38.jpg';
+import carlieImg from '../img/SageSalon06.jpeg';
+import vicImg from '../img/SageSalon14.jpeg';
+import emmaImg from '../img/SageSalon05.jpeg';
 import BannerComponent from './Banner';
 
 function TeamComponent (){
@@ -87,7 +90,7 @@ function StylistComponent() {
             </div>
           </div>
         </Grid>
-        
+
         <Grid item xs={12} md={6} className="stylist-img-outer">
           <div className="team-member-outer">
             <div className="team-member" style={{ background: `url(${amberImg}) center center`, backgroundSize: 'cover', backgroundColor: 'rgba(233, 232, 234, 1)' }}>
@@ -124,6 +127,36 @@ function StylistComponent() {
               <div className="txt-wrapper">
                 <h1 className="team-name">Carmen Lopez</h1>
                 <h3 className="team-title">Lash Artist</h3>
+              </div>
+            </div>
+          </div>
+        </Grid>
+        <Grid item xs={12} md={6} className="stylist-img-outer">
+          <div className="team-member-outer">
+            <div className="team-member" style={{ background: `url(${carlieImg}) center center`, backgroundSize: 'cover', backgroundColor: 'rgba(233, 232, 234, 1)' }}>
+              <div className="txt-wrapper">
+                <h1 className="team-name">Carlie Chapman</h1>
+                <h3 className="team-title">Stylist</h3>
+              </div>
+            </div>
+          </div>
+        </Grid>
+        <Grid item xs={12} md={6} className="stylist-img-outer">
+          <div className="team-member-outer">
+            <div className="team-member" style={{ background: `url(${vicImg}) center center`, backgroundSize: 'cover', backgroundColor: 'rgba(233, 232, 234, 1)' }}>
+              <div className="txt-wrapper">
+                <h1 className="team-name">Victoria Ho</h1>
+                <h3 className="team-title">Stylist</h3>
+              </div>
+            </div>
+          </div>
+        </Grid>
+        <Grid item xs={12} md={6} className="stylist-img-outer">
+          <div className="team-member-outer">
+            <div className="team-member" style={{ background: `url(${emmaImg}) center center`, backgroundSize: 'cover', backgroundColor: 'rgba(233, 232, 234, 1)' }}>
+              <div className="txt-wrapper">
+                <h1 className="team-name">Emma Garrett</h1>
+                <h3 className="team-title">Nail Tech</h3>
               </div>
             </div>
           </div>

@@ -1,40 +1,32 @@
 import React, { Component } from 'react';
 import {
-  BrowserRouter as Router,
+  // BrowserRouter as Router,
   Route,
-  Link,
+  Routes,
+  // Link,
   HashRouter
 } from 'react-router-dom'
-import { createBrowserHistory } from 'history'
+// import { createBrowserHistory } from 'history'
 import HomeComponent from './Home.js';
 import ServicesComponent from './Services.js';
 import TeamComponent from './Team.js';
 import HeaderComponent from './Header';
 import FooterComponent from './Footer';
 
-class App extends React.Component {
-  // componentDidUpdate(prevProps) {
-  //       if (this.props.location.pathname !== prevProps.location.pathname) {
-  //           console.log('Route change!');
-  //       }
-  //   }
-
-  render() {
-
+function App() {
   return (
     <HashRouter onUpdate={() => window.scrollTo(0, 0)}>
         <div>
           <HeaderComponent />
-
-          <Route exact path='/' component={HomeComponent}></Route>
-          <Route exact path='/services' component={ServicesComponent}></Route>
-          <Route exact path='/team' component={TeamComponent}></Route>
-
+          <Routes>
+            <Route exact path='/' element={<HomeComponent />}></Route>
+            <Route exact path='/services' element={<ServicesComponent />}></Route>
+            <Route exact path='/team' element={<TeamComponent />}></Route>
+          </Routes>
           <FooterComponent />
         </div>
       </HashRouter>
-  );
-}
-}
+    );
+  }
 
-export default App;
+  export default App;
