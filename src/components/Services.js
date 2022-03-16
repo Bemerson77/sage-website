@@ -169,6 +169,21 @@ function ServiceList (){
                  </Grid>
                </ExpansionPanelDetails>
              </ExpansionPanel>
+             <ExpansionPanel>
+               <ExpansionPanelSummary
+                 expandIcon={<ExpandMoreIcon />}
+                 aria-controls="panel3a-content"
+                 id="panel3a-header"
+               >
+               <h3 className="service-sub-title">Nails</h3>
+               </ExpansionPanelSummary>
+               <ExpansionPanelDetails>
+                 <Grid item xs={12} className="service-section">
+                     <p className="service">Hard Gel Manicures</p>
+                 </Grid>
+               </ExpansionPanelDetails>
+             </ExpansionPanel>
+
              <h1 className="services-title">Lashes at Sage</h1>
                <ExpansionPanel>
                  <ExpansionPanelSummary
