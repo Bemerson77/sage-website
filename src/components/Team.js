@@ -123,16 +123,6 @@ function StylistComponent() {
         </Grid>
         <Grid item xs={12} md={6} className="stylist-img-outer">
           <div className="team-member-outer">
-            <div className="team-member" style={{ background: `url(${carmenImg}) center center`, backgroundSize: 'cover', backgroundColor: 'rgba(233, 232, 234, 1)' }}>
-              <div className="txt-wrapper">
-                <h1 className="team-name">Carmen Lopez</h1>
-                <h3 className="team-title">Lash Artist</h3>
-              </div>
-            </div>
-          </div>
-        </Grid>
-        <Grid item xs={12} md={6} className="stylist-img-outer">
-          <div className="team-member-outer">
             <div className="team-member" style={{ background: `url(${carlieImg}) center center`, backgroundSize: 'cover', backgroundColor: 'rgba(233, 232, 234, 1)' }}>
               <div className="txt-wrapper">
                 <h1 className="team-name">Carlie Chapman</h1>
